@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="he">
+            <li class="ma">
+                <img src="./assets/IMAGES/Namelogo.png" alt="Your Name">
+            </li>
+        </ul>
+        <ul class="n">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-heading">About</a></li>
+            <li><a href="#edu-heading">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+        <div class="hero" id="home">
+            <div class="detel">
+                <h1>I'm Hemanth <span>Seelam</span></h1>
+                <p>This is my official portfolio website to show all
+                    <br>Details and work experience.
+                </p>
+                <a href="./services.html" target="main">RESUME</a>
+            </div>
+            <div class="images">
+                <img src="./assets/IMAGES/shape.png" class="shape">
+                <img src="./assets/IMAGES/me1.png" class="boy">
+            </div>
+        </div>
+    <section id="about">
+        <h2 id="about-heading">About Me</h2>
+        <p style="font-size: large;">I'm a BTech 3rd year Computer Science and Engineering student with a strong passion for learning new coding languages.<br> Dedicated to expanding my technical skills, I'm actively involved in projects, studies, and other activities.<br> My curiosity and commitment drive my growth as an aspiring developer, eager to explore new technologies.</p>
+    </section>
+
+    <section id="table">
+
+        <h1 id="edu-heading">Education</h1>
+        <table>
+            <tr >
+                <th>Course</th>
+                <th>Institution</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td>Vignan University</td>
+                <td>2026</td>
+            </tr>
+            <tr>
+                <td>Intermediate</td>
+                <td>Sri Chaitanya</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>St.Charles</td>
+                <td>2020</td>
+            </tr>
+        </table>
+    </section>
+    <section id="projects">
+        <marquee behavior="scroll" direction="left" scrollamount="20"><h2>Projects</h2>
+        <div class="m">
+            <article class="u">
+                <h3>Autism Detection</h3><br>
+                <img src="./assets/IMAGES/pject1.jpg" alt="">
+                <p>Autism detection <br>using machine learning involves<br> analyzing behavioral data to identify patterns associated<br> with ASD, enabling early diagnosis and intervention.<br> It enhances diagnostic accuracy and <br>supports clinical evaluations.</p> </article>
+                
+                <article class="k">
+                    <h4>TECHNOHACKS </h4><br>
+                    <img src="./assets/IMAGES/pject3.png" alt="TECHNOHACKS Minor Projects">
+                    <p>TECHNOHACKS minor projects through HTML <br> has completed calculator ,portfolio, Currency convertor <br>And certified html one month internship program from TechnoHacks </p>
+                </article>
+
+            <article class="u">
+                <h3>Drug Recommendation</h3><br>
+                <img src="./assets/IMAGES/pject2.jpg" alt="Pollution Control Project Screenshot">
+                <p>Drug recommendation using <br> machine learning analyzes patient data to suggest <br>personalized medications, enhancing treatment effectiveness<br> and reducing side effects by predicting the <br>best drug based on learned patterns</p> </article>
+            </marquee>
+            </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact">
+            <form>
+                <label for="fname">Name</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="msg">Message</label><br>
+                <textarea id="msg" name="msg" rows="10"></textarea><br><br>
+                <input type="submit" value="Submit" onclick="myFunction()">
+            </form>
+        </div>
+
+        <a href="221fa04691@gmail.com" class="contact-button">Email Me</a>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://github.com" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a><br>
+            <a href="https://www.linkedin.com/in/hemanthseelam159" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a><br>
+
+            <a href="https://www.instagram.com/hemanthseelam159/" target="_blank" aria-label="instagram">
+                <i class="fab fa-instagram"></i>
+            </a><br>
+            <a href="https://x.com/hemanthseelam2" target="_blank" aria-label="twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list"><a href="#home">Home</a></li>
+                    <li class="footer_menu_list"><a href="#about-heading">About</a></li>
+                    <li class="footer_menu_list"><a href="#project-heading">Projects</a></li>
+                    <li class="footer_menu_list"><a href="#contact-heading">Contact</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Hemanth</a> - All rights reserved 2024</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js" defer></script>
+</body>
+</html>
